@@ -1,0 +1,85 @@
+body {
+    font-family: "Roboto", sans-serif;
+    &.locked {
+        overflow: hidden;
+    }
+}
+.btn {
+    background: $red;
+    padding: 18px 48px;
+    display: inline-flex;
+    align-items: center;
+    gap: 40px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 24px;
+    color: $white;
+    max-width: fit-content;
+
+    svg {
+        transition: 0.3s all ease;
+    }
+
+    &:hover {
+        background: rgb(224, 6, 6);
+        transition: 0.3s all ease;
+
+        svg {
+            transform: translateX(10px);
+        }
+    }
+}
+.btn__outline {
+    padding: 18px 48px;
+    border: 1px solid $lightgray;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 24px;
+    color: $blue;
+    background: $white;
+    &:hover {
+        background: $blue;
+        transition: 0.3s all ease;
+        color: $white;
+    }
+}
+
+main {
+    padding: 40px 200px;
+}
+
+.form {
+    // form__step
+    &__step {
+
+    }
+    // form__input 
+    &__input {
+
+        &.search__input {
+            margin-top: 40px;
+        }
+
+    }
+}
+.button {
+
+}
+.prev {
+    &__step {
+
+    }
+}
+.next {
+    &__step {
+
+    }
+}
+.input {
+    &__img {
+
+    }
+}

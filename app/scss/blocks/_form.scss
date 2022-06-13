@@ -1,0 +1,44 @@
+.steps {
+    &__form {
+
+    }
+    &__numbers {
+        display: flex;
+        align-items: center;
+        position: relative;
+        max-width: 650px;
+    }
+}
+.progress {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: $lightgray;
+    z-index: -1;
+
+    &__success {
+
+    }
+}
+.step {
+    &__number {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 100%;
+        width: 50px;
+        height: 50px;
+        border: 2px solid $lightgray;
+        margin-right: 100px;
+        flex-shrink: 0;
+        background: $white;
+    }
+    &__buttons {
+        margin-top: 60px;
+        gap: 20px;
+        display: flex;
+ 
+    }
+}
