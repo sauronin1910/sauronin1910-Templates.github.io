@@ -1,10 +1,18 @@
-.radion {
-    // .radion__item
+.radio__buttons {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.radio {
+    // .radio__item
 
     &__item {
         display: flex;
         max-width: 360px;
-        padding: 20px;
+        width: 100%;
+        padding: 10px;
         background: $lightblue;
         align-items: center;
         position: relative;
@@ -16,6 +24,9 @@
         display: none;
 
         &:checked + .fake:after {
+            opacity: 1;
+        }
+        &:checked ~ .border {
             opacity: 1;
         }
     }
@@ -52,6 +63,26 @@
     color: $blue;
 }
 .img {
+    width: 60px;
+    height: 60px;
+    background: $white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+    img {
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+    }
 }
 .border {
+    position: absolute;
+    border: 1px solid $red;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    opacity: 0;
 }

@@ -71,13 +71,30 @@
     &:focus {
         outline: 1px solid $red;
     }
-    //Input__img 
+    //Input__img
     &__img {
-        position:absolute;
+        position: absolute;
         left: 30px;
         top: 50%;
-        transform: translate(0,-50%);
+        transform: translate(0, -50%);
     }
 }
 
+.form {
+    // .form__item
 
+    &__item {
+        margin-top: 40px;
+   
+    }
+
+    // .form__item-title
+
+    &__item-title {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 28px;
+        color: $blue;
+    }
+}
