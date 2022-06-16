@@ -1,14 +1,21 @@
-// reset
-@import 'base/reset.scss';
+// base 
+
 // variable
 @import 'base/var';
+// reset
+@import 'base/reset.scss';
 // mixins
 @import 'base/mixins';
+
+// blocks
+
 // global 
 @import 'blocks/global';
 // header
 @import 'blocks/header';
 // Form
 @import 'blocks/form';
+// Radio 
+@import 'blocks/radio';
 
 

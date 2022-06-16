@@ -1,12 +1,29 @@
 .steps {
     &__form {
-
     }
     &__numbers {
         display: flex;
         align-items: center;
         position: relative;
         max-width: 650px;
+        margin-bottom: 60px;
+    }
+}
+
+.form {
+    // form__step
+    &__step {
+    }
+    // form__input
+    &__input {
+        display: flex;
+        position: relative;
+        border: 1px solid $lightgray;
+        max-width: 450px;
+
+        &.search__input {
+            margin-top: 40px;
+        }
     }
 }
 .progress {
@@ -19,7 +36,6 @@
     z-index: -1;
 
     &__success {
-
     }
 }
 .step {
@@ -39,6 +55,29 @@
         margin-top: 60px;
         gap: 20px;
         display: flex;
- 
     }
 }
+
+.input {
+    padding: 20px 20px 20px 65px;
+    width: 100%;
+    outline: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: $gray;
+
+    &:focus {
+        outline: 1px solid $red;
+    }
+    //Input__img 
+    &__img {
+        position:absolute;
+        left: 30px;
+        top: 50%;
+        transform: translate(0,-50%);
+    }
+}
+
+

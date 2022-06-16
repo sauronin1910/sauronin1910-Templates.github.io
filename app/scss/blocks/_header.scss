@@ -21,23 +21,7 @@
     padding-bottom: 88px;
     display: flex;
 }
-.section {
-    //section__title
-    &__title {
-        font-style: normal;
-        font-weight: 500;
-        font-size: 50px;
-        line-height: 56px;
-        color: $blue;
-    }
-    &__text {
-        font-style: normal;
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 22px;
-        color: $gray;
-    }
-}
+
 //header__btn
 .header__btn {
     margin-top: 40px;
