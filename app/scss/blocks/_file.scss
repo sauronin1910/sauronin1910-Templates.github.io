@@ -1,0 +1,48 @@
+.file {
+
+    // .file__uploader
+
+    &__uploader {
+        display: flex;
+        max-width: 1120px;
+        height: 100%;
+    }
+
+    // .file__uploader-item
+
+    &__uploader-item {
+
+    }
+
+    // .file__label
+
+    &__label {
+        display: flex;
+        height: 360px;
+        width: 360px;
+        position: relative;
+    }
+
+    // .file__item
+
+    &__item {
+    }
+
+    // .file__item-img
+
+    &__item-img {
+    }
+
+    // .file__item-text
+
+    &__item-text {
+    }
+}
+
+.profile {
+
+    // .profile__input
+
+    &__input {
+    }
+}
